@@ -1,1 +1,1 @@
-# Potato Disease Classification
+# Corn Diseases Classification

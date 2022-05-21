@@ -1,3 +1,3 @@
 # Corn Diseases Classification
 
-Dataset: https://data.mendeley.com/datasets/tywbtsjrjv/1
+Dataset: https://www.tensorflow.org/datasets/catalog/plant_village

@@ -14,11 +14,23 @@
 
 4. pip install --upgrade pip
 
-5. pip install fastapi
+5. pip install fastapi==0.73.0
 
-6. pip freeze > requirements.txt
+6. pip install uvicorn==0.17.1
 
-7. Create main.py file as follows
+7. pip install tensorflow==2.6.0
+
+8. pip uninstall protobuf
+
+9. pip install protobuf==3.20.0
+
+10. pip uninstall keras
+
+11. pip install keras==2.6.0
+
+12. pip freeze > requirements.txt
+
+13. Create main.py file as follows
 
 ```
 from fastapi import FastAPI
@@ -32,6 +44,6 @@ async def ping():
 
 ```
 
-8. uvicorn main:app --reload
+14. uvicorn main:app --reload
 
-9. Open a web browser with this URL: http://localhost:8000/ping
+15. Open a web browser with this URL: http://localhost:8000

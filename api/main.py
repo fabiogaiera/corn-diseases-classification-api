@@ -1,11 +1,14 @@
 import tensorflow as tf
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 
 
 app = FastAPI()
 
 MODEL = tf.keras.models.load_model("../model")
 
-@app.get("/ping")
+web_page = """<html><body>It works!</body></html>"""
+
+@app.get("/", response_class=HTMLResponse)
 async def ping():
-    return "It works!"
+    return web_page

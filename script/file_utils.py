@@ -2,8 +2,8 @@ import os
 import sys
 import uuid
 
+
 def rename_file(current_path):
-    
     path = os.path.dirname(os.path.abspath(current_path))
     name = str(uuid.uuid4()) + ".png"
     new_path = os.path.join(path, name)

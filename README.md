@@ -1,8 +1,10 @@
 # Corn Diseases Classification API
 
-## Model Building With Dataset https://www.tensorflow.org/datasets/catalog/plant_village
+## Model training with dataset https://www.tensorflow.org/datasets/catalog/plant_village
 
-## API creation That Serves The Model
+1. Execute python notebook in notebook/Model Training.ipynb 
+
+## API creation that serves the model
 
 1. Create a directory called api
 

@@ -11,12 +11,12 @@ class_names = ["Common Rust", "Gray Leaf Spot", "Healthy", "Northern Leaf Blight
 new_size = (256, 256)
 
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/api/ping", response_class=HTMLResponse)
 async def ping():
     return "It works!"
 
 
-@app.post("/predict", response_class=JSONResponse)
+@app.post("/api/predict", response_class=JSONResponse)
 async def predict(file: UploadFile = File(...)):
     f = await file.read()
     img = Image.open(io.BytesIO(f)).resize(new_size)

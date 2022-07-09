@@ -24,6 +24,6 @@
 
 8. uvicorn main:app --reload 
 
-9. 1. GET http://localhost:8000/
+9. 1. GET http://localhost:8000/api/ping (Postman collection available in repository)
 
-9. 2. POST GET http://localhost:8000/predict
+9. 2. POST GET http://localhost:8000/api/predict (Postman collection available in repository)

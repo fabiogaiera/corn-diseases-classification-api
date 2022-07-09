@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "37ec79cd-0a6c-4f71-8f84-4a0082d75781",
+		"_postman_id": "c72e6b65-b0ee-4c08-9fc3-30017787223b",
 		"name": "Corn Disease Classification API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -24,13 +24,20 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8000/predict",
+					"raw": "localhost:8000/api/predict?",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
 						"predict"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
 					]
 				}
 			},
@@ -52,11 +59,15 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "localhost:8000",
+					"raw": "localhost:8000/api/ping",
 					"host": [
 						"localhost"
 					],
-					"port": "8000"
+					"port": "8000",
+					"path": [
+						"api",
+						"ping"
+					]
 				}
 			},
 			"response": []

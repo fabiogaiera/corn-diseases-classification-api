@@ -4,7 +4,7 @@
 
 1. Execute python notebook in notebook/Model Training.ipynb 
 
-## API creation that serves the model
+## API deployment that serves the model
 
 1. cd api
 

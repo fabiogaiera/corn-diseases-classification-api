@@ -6,24 +6,22 @@
 
 ## API creation that serves the model
 
-1. Create a directory called api
+1. cd api
 
-2. cd api
+2. python -m venv .venv
 
-3. python -m venv .venv
+3. 1. source .venv/bin/activate (Linux)
 
-4. 1. source .venv/bin/activate (Linux)
+3. 2. .venv\Scripts\activate (Windows)
 
-4. 2. .venv\Scripts\activate (Windows)
+4. pip install --upgrade pip
 
-5. pip install --upgrade pip
+5. pip install -r requirements.txt
 
-6. pip install -r requirements.txt
+6. Create main.py file (main.py file already created in repository)
 
-7. Create main.py file (main.py file already created in repository)
+7. uvicorn main:app --reload 
 
-8. uvicorn main:app --reload 
+8. 1. GET http://localhost:8000/api/ping (Postman collection available in repository)
 
-9. 1. GET http://localhost:8000/api/ping (Postman collection available in repository)
-
-9. 2. POST GET http://localhost:8000/api/predict (Postman collection available in repository)
+8. 2. POST GET http://localhost:8000/api/predict (Postman collection available in repository)

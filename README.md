@@ -24,4 +24,4 @@
 
 8. 1. GET http://localhost:8000/api/ping (Postman collection available in repository)
 
-8. 2. POST GET http://localhost:8000/api/predict (Postman collection available in repository)
+8. 2. POST http://localhost:8000/api/predict (Postman collection available in repository)

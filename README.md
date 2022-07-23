@@ -10,9 +10,7 @@
 
 2. python -m venv .venv
 
-3. 1. source .venv/bin/activate (Linux)
-
-3. 2. .venv\Scripts\activate (Windows)
+3. source .venv/bin/activate (Linux) or .venv\Scripts\activate (Windows) 
 
 4. pip install --upgrade pip
 

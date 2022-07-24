@@ -1,4 +1,4 @@
-# Corn Diseases Classifier API
+# Corn Diseases Classifier
 
 ## Model training with dataset https://www.tensorflow.org/datasets/catalog/plant_village
 

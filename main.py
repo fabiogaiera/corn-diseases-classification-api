@@ -6,7 +6,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from PIL import Image
 
 app = FastAPI()
-model = tf.keras.models.load_model("../model")
+model = tf.keras.models.load_model('model/')
 class_names = ["Common Rust", "Gray Leaf Spot", "Healthy", "Northern Leaf Blight"]
 new_size = (256, 256)
 
